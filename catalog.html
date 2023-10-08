@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="main-header">
+        <ul>
+    <li>
+      <a href="index.html">
+      <span class="visually-hidden">Логотип сайта Седона</span>
+      <img src="/imgs/logo.svg" alt="Логотип">
+      </a>
+    </li>
+    <li>
+      <a class="navigation-link" href="#">Главная</a>
+    </li>
+    <li>
+      <a class="navigation-link" href="#">О Седоне</a>
+    </li>
+    <li>
+      <a class="navigation-link navigation-link-current" href="#">Гостиницы</a>
+    </li>
+       </ul>
+       <div class="main-header-user">
+        <ul>
+        <li>
+          <img src="/imgs/search.svg" alt="лупа-поиск">
+          <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+          <input type="search">
+          <button type="submit" class="search-form-button">найти</button>
+        </form>
+      </li>
+        <li>
+          <img src="/imgs/icons-heart.svg" alt="сердце">12</li>
+          <li>
+            <button type="submit" class="search-form-button">Хочу сюда!</button>
+          </li>
+        </ul>
+        </div>
+      </header>
+
+      <main class="main-inner">
+        <header class="inner-header">
+          <h1 class="inner-header-title">Гостиницы</h1>
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link" href="index.html"></a>
+            </li>
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link">Гостиницы</a>
+            </li>
+          </ul>
+        </header>
+
+        <section class="catalog-products">
+          <h2 class="visually-hidden">Список товаров с фильтрами</h2>
+          <form class="catalog-filter" action="https://echo.htmlacademy.ru">
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Инфраструктура</legend>
+            <ul class="catalog-filter-list">
+              <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="Бассейн" checked>
+              Бассейн
+            </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="Парковка" checked>
+                  Парковка
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="Wi-Fi">
+                  Wi-Fi
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Тип Жилья</legend>
+            <ul class="catalog-filter-list">
+              <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="radio" name="type-housing" value="hotel" checked>
+              Гостиница
+            </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="type-housing" value="motel">
+                  Мотель
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="type-housing" value="apartments">
+                  Мотель
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <ul class="price-slider">
+            <li class="price-slider-item">Стоимость
+              <span class="rub">Р</span>
+            </li>
+            <li>От и До</li>
+            <li>Ползунок</li>
+          </ul>
+          <button class="button" type="submit">Применить</button>
+          <button class="button" type="submit">Сбросить</button>
+        </form>
+
+        <select class="select-control" aria-label="Сортировка">
+          <option value="cheap">Сначала дешёвое</option>
+          <option value="popular">Сначала популярное</option>
+          <option value="expensive">Сначала дорогое</option>
+        </select>
+        <a href="#" class="button button-cards">
+          <span class="visually-hidden">Показать карточки</span>
+        </a>
+        <a href="#" class="button button-card">
+          <span class="visually-hidden">Показать карточку</span>
+        </a>
+        <a href="#" class="button button-cards">
+          <span class="visually-hidden">Показать список</span>
+        </a>
+
+
+
+
+
+
+      </main>
+
+      <footer class="page-footer catalog">
+        <div class="social-buttons">
+        <ul>
+          <li>
+            <a class="social-button" href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">Vkontakte</span>
+              <img src="/imgs/VK.svg" alt="ссылка на вконтакте">
+            </a>
+          </li>
+          <li>
+            <a class="social-button" href="https://t.me/htmlacademy">
+              <span class="visually-hidden">Telegram</span>
+              <img src="/imgs/telegram.svg" alt="ссылка на телеграм">
+            </a>
+          </li>
+          <li>
+            <a class="social-button" href="https://www.youtube/user/htmlacademyru">
+              <span class="visually-hidden">Youtube</span>
+              <img src="/imgs/youtube.svg" alt="ссылка на ютуб">
+            </a>
+          </li>
+             </ul>
+            </div>
+            <a class="contacts-phone" href="tel:+78128121212">(812) 812-12-12
+            </a>
+            <a class="footer copyright" href="https://htmlacademy.ru">
+              <img src="/imgs/HTMLAcademy.png" alt="ссылка на HTML Academy">
+            </a>
+      </footer>
+
+  </html>

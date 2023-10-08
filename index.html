@@ -7,16 +7,26 @@
   </head>
   <body>
 <div class="container">
-  <header class="main-header">
-    <ul>
-<li><a href="index.html">
-  <!--<span class="visually-hidden">Логотип сайта Седона</span>-->
+  <header class="page-header">
+    <nav class="navigation">
+    <ul class="navigation-list">
+<li class="navigation-item">
+  <a href="index.html">
+  <span class="visually-hidden">Логотип сайта Седона</span>
   <img src="/imgs/logo.svg" alt="Логотип">
-</a></li>
-<li><a href="#">Главная</a></li>
-<li><a href="#"></a>О Седоне</li>
-<li><a href="#"></a>Гостиницы</li>
+  </a>
+</li>
+<li>
+  <a class="navigation-link navigation-link-current" href="#">Главная</a>
+</li>
+<li>
+  <a class="navigation-link" href="#">О Седоне</a>
+</li>
+<li>
+  <a class="navigation-link" href="#">Гостиницы</a>
+</li>
    </ul>
+    </nav>
    <div class="main-header-user">
     <ul>
     <li>
@@ -28,15 +38,17 @@
   </li>
     <li>
       <img src="/imgs/icons-heart.svg" alt="сердце">12</li>
-      <li><button type="submit" class="search-form-button">Хочу сюда!</button></li>
+      <li>
+        <button type="submit" class="search-form-button">Хочу сюда!</button>
+      </li>
     </ul>
     </div>
   </header>
-  <main>
+  <main class="main-index">
     <section class="hero">
       <h1 class="visually-hidden">Седона - небольшой городок в Аризоне</h1>
       <div class="wallpaper">
-        <img src="/imgs/index-background.jpg" alt="">
+        <img src="/imgs/index-background.jpg" alt="горы Седоны">
       </div>
 <img src="/imgs/welcome.jpg" alt="горы Седоны">
     </section>
@@ -116,28 +128,46 @@
 
 <section class="subscribe">
   <div>
-  <img src="" alt="">
+  <img src="/imgs/Subscribe.png" alt="фоновая картика Седоны">
   <h2>Подпишитесь на рассылку</h2>
   <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-  <form action="https://echo.htmlacademy.ru">
-    <label for="subscribe-button"></label>
+  <form action="https://echo.htmlacademy.ru" method="post">
+    <label for="subscribe-button">Email</label>
     <input name="email" id="subscribe-button" type="email" placeholder="Ваш e-mail" required>
     <img src="/imgs/calendar.svg" alt="иконка календаря" width="5" height="5">
-    <p><button type="submit">подписаться</button></p>
+    <button class="button" type="submit">подписаться</button>
   </form>
 </div>
 </section>
 </main>
-<footer>
-  <div class="social">
+<footer class="page-footer">
+  <div class="social-buttons">
   <ul>
-    <li><a href="vk"><img src="/imgs/VK.svg" alt="ссылка на вконтакте"></a></li>
-    <li><a href="telegram"><img src="/imgs/telegram.svg" alt="ссылка на телеграм"></a></li>
-    <li><a href="youtube"><img src="/imgs/youtube.svg" alt="ссылка на ютуб"></a></li>
+    <li>
+      <a class="social-button" href="https://vk.com/htmlacademy">
+        <span class="visually-hidden">Vkontakte</span>
+        <img src="/imgs/VK.svg" alt="ссылка на вконтакте">
+      </a>
+    </li>
+    <li>
+      <a class="social-button" href="https://t.me/htmlacademy">
+        <span class="visually-hidden">Telegram</span>
+        <img src="/imgs/telegram.svg" alt="ссылка на телеграм">
+      </a>
+    </li>
+    <li>
+      <a class="social-button" href="https://www.youtube/user/htmlacademyru">
+        <span class="visually-hidden">Youtube</span>
+        <img src="/imgs/youtube.svg" alt="ссылка на ютуб">
+      </a>
+    </li>
        </ul>
       </div>
-      <a href="tel:+78128121212">(812) 812-12-12</a>
-      <a href="index.html"><img src="/imgs/HTMLAcademy.png" alt="ссылка на HTML Academy"></a>
+      <a class="contacts-phone" href="tel:+78128121212">(812) 812-12-12
+      </a>
+      <a class="footer copyright" href="https://htmlacademy.ru">
+        <img src="/imgs/HTMLAcademy.png" alt="ссылка на HTML Academy">
+      </a>
 </footer>
 
    </div>
