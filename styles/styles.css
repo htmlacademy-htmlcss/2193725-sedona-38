@@ -35,3 +35,94 @@ body {
   color: #333333;
   background-color: #F2F2F2;
 }
+
+.navigation-list {
+  list-style-type: none;
+}
+
+.navigation-link {
+  font-family: PT Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+ .search {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.header-user-item {
+  list-style-type: none;
+}
+
+.button {
+  font-family: inherit;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #756157;
+  width: 160px;
+  height: 36px;
+  border-radius: 4px;
+  border: none;
+}
+
+.hero {
+  display: block;
+  background-color: #1D2C31;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/images/index-background.jpg");
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.advantages-title, .icons-cards-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.advantages-description, .icons-cards-description {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.icons-cards {
+  display: block;
+}
+
+
+
+
+
+
+
+.email {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+}
