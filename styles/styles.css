@@ -74,6 +74,10 @@ body {
   border: none;
 }
 
+.button-reset {
+  background-color: transparent;
+}
+
 .hero {
   display: block;
   background-color: #1D2C31;
@@ -81,20 +85,6 @@ body {
   background-position: center;
   background-image: url("/images/index-background.jpg");
   background-repeat: no-repeat;
-}
-
-.title {
-  font-size: 30px;
-  line-height: 36px;
-  font-weight: 700;
-  text-align: center;
-}
-
-.subtitle {
-  font-size: 22px;
-  line-height: 26px;
-  font-weight: 400;
-  text-align: center;
 }
 
 .advantages-title, .icons-cards-title {
@@ -111,16 +101,27 @@ body {
   text-align: center;
 }
 
+.title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+}
+
 .icons-cards {
   display: block;
 }
 
-
 .cards{
   background: #82B3D3;
 }
-
-
 
 .email {
   font-family: inherit;

@@ -50,9 +50,9 @@
       <main class="main-index">
         <section class="hero">
           <h1 class="visually-hidden">Седона - небольшой городок в Аризоне</h1>
-            <div class="wallpaper">
+            <!-- <div class="wallpaper">
               <img src="/images/index-background.jpg" alt="горы Седоны" width="1200" height="485">
-            </div>
+            </div> -->
             <img src="/images/welcome.svg" alt="горы Седоны" width="458" height="352">
         </section>
         <section class="heading">
@@ -114,41 +114,39 @@
             <p class="icons-cards-description">Не только китайского, но и настоящего местного производства!</p>
           </div>
         </section>
-        <section>
+        <section class="hotel-search">
           <h2 class="title">Заинтересовались?</h2>
           <p class="subtitle">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
             <button class="button" type="submit">ПОИСК ГОСТИНИЦЫ В седоне</button>
         </section>
-        <section class="subscribe">
-          <div>
-            <img src="/images/Subscribe.png" alt="фоновая картика Седоны">
-            <h2 class="title">Подпишитесь на рассылку</h2>
-            <p class="subtitle">Только полезная информация и никакого спама, честное бойскаутское!</p>
-            <form action="https://echo.htmlacademy.ru" method="post">
+        <section class="subscribe subscribe-catalog">
+          <img src="/images/Subscribe.png" alt="фоновая картика Седоны">
+           <h2 class="title">Подпишитесь на рассылку</h2>
+           <p class="subtitle">Только полезная информация и никакого спама, честное бойскаутское!</p>
+            <form class="subscribe-form" action="https://echo.htmlacademy.ru" method="post">
               <label for="subscribe-button">Email</label>
               <input class="email" name="email" id="subscribe-button" type="email" placeholder="Ваш e-mail" required>
-              <img src="/images/calendar.svg" alt="иконка календаря" width="5" height="5">
+              <!-- <img src="/images/calendar.svg" alt="иконка календаря" width="5" height="5"> -->
               <button class="button button-activ" type="submit">подписаться</button>
             </form>
-          </div>
         </section>
       </main>
       <footer class="page-footer">
         <div class="social-buttons">
-          <ul>
-            <li>
+          <ul class="social-button-list">
+            <li class="social-button-item">
               <a class="social-button" href="https://vk.com/htmlacademy">
                 <span class="visually-hidden">Vkontakte</span>
                 <img src="/images/VK.svg" alt="ссылка на вконтакте">
               </a>
             </li>
-            <li>
+            <li class="social-button-item">
               <a class="social-button" href="https://t.me/htmlacademy">
                 <span class="visually-hidden">Telegram</span>
                 <img src="/images/telegram.svg" alt="ссылка на телеграм">
               </a>
             </li>
-            <li>
+            <li class="social-button-item">
               <a class="social-button" href="https://www.youtube/user/htmlacademyru">
                 <span class="visually-hidden">Youtube</span>
                 <img src="/images/youtube.svg" alt="ссылка на ютуб">
