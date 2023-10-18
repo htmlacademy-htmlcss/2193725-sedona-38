@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  font-family: "PT Sans", "Arial" sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: #333333;
+  background-color: #F2F2F2;
+}
+
+.navigation-list {
+  list-style-type: none;
+}
+
+.navigation-link {
+  font-family: PT Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+ .search {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.header-user-item {
+  list-style-type: none;
+}
+
+.button {
+  font-family: inherit;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #756157;
+  width: 160px;
+  height: 36px;
+  border-radius: 4px;
+  border: none;
+}
+
+.button-reset {
+  background-color: transparent;
+}
+
+.hero {
+  display: block;
+  background-color: #1D2C31;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/images/index-background.jpg");
+  background-repeat: no-repeat;
+}
+
+.advantages-title, .icons-cards-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.advantages-description, .icons-cards-description {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.icons-cards {
+  display: block;
+}
+
+.cards{
+  background: #82B3D3;
+}
+
+.email {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+}
