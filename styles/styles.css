@@ -23,11 +23,12 @@
 img {
   max-width: 100%;
   height: auto;
+  display: block;
 }
 
 body {
   margin: 0;
-  font-family: "PT Sans", "Arial" sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -36,15 +37,24 @@ body {
   background-color: #F2F2F2;
 }
 
+.page-header {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+
 .navigation-list {
   list-style-type: none;
+  min-width: 450px;
 }
 
 .navigation-link {
-  font-family: PT Sans;
+  display: block;
+  font-family: inherit;
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -85,27 +95,21 @@ body {
   background-position: center;
   background-image: url("/images/index-background.jpg");
   background-repeat: no-repeat;
+  width: 1200px;
 }
 
-.advantages-title, .icons-cards-title {
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: 700;
-  text-align: center;
-}
-
-.advantages-description, .icons-cards-description {
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 400;
-  text-align: center;
+.visually-hidden {
+  display: none;
 }
 
 .title {
+
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   text-align: center;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 .subtitle {
@@ -113,15 +117,77 @@ body {
   line-height: 26px;
   font-weight: 400;
   text-align: center;
+  color: #333333;
 }
 
-.icons-cards {
+.advantages-list {
+  text-align: center;
+}
+
+.advantages-title, .advantages-icons-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.advantages-description, .advantages-icons-description {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+
+  color: #333333;
+}
+
+.advantages-title-extended, .advantages-description-extended {
+  color: #FFFFFF;
+}
+
+.advantages-item {
+list-style-type: none;
+}
+
+.advantages-item:nth-child(odd) {
+  background: #83B3D31F
+}
+
+.advantages-item:nth-child(even) {
+background: #83B3D333;
+}
+
+.advantages-item:first-child {
+  background: #82B3D3;
+}
+
+.advantages-item:last-child {
+  background: #82B3D3;
+}
+
+.advantages-icons-item {
+  list-style-type: none;
+}
+
+.advantages-icons {
+  text-align: center;
+}
+
+.advantages-icons-item:nth-child(odd) {
+  background-color: #83B3D31F;
   display: block;
 }
 
-.cards{
-  background: #82B3D3;
+.hotel-search {
+  text-align: center;
 }
+
+.subscribe {
+  border-color: #50769D;
+  background-image: url("/images/Subscribe.png");
+  background-repeat: no-repeat;
+
+}
+
 
 .email {
   font-family: inherit;
