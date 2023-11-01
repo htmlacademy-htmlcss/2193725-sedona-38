@@ -59,6 +59,7 @@ body {
   list-style-type: none;
   min-width: 450px;
   margin: 0;
+  padding: 0;
 }
 
 .navigation-link {
@@ -317,6 +318,7 @@ body {
   display: flex;
    list-style-type: none;
    margin: 0;
+   padding: 0;
 }
 
  .breadcrumbs-link {
@@ -363,10 +365,13 @@ body {
 .select {
   display: flex;
   padding: 0 70px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 .select-title {
   margin: 0;
+  text-transform: uppercase;
 }
 
 .hotel-selection {
@@ -381,14 +386,16 @@ body {
 .hotel-description-list {
   display: flex;
   flex-wrap: wrap;
-  width: 1200px;
   list-style-type: none;
   margin: 0;
+  padding: 0;
+  gap: 20px;
 }
 
 .hotel-description-card {
   width: 340px;
   padding: 19px;
+  border: 1px solid #E6E6E6;
 }
 
 .hotel-card-link {
@@ -421,6 +428,8 @@ color: #000000;
   border-radius: 4px;
 }
 
+/* pagination */
+
 .pagination {
   padding: 0 70px;
 }
@@ -429,6 +438,12 @@ color: #000000;
   display: flex;
   list-style-type: none;
   margin: 0;
+  padding: 0;
+}
+
+.pagination-item.pagination-item-points {
+  background-color: transparent;
+  padding-top: 16px;
 }
 
 .pagination-link {
@@ -451,11 +466,16 @@ color: #000000;
   border-radius: 4px;
   background-color: #82B3D3;
   text-align: center;
+  padding: 8px;
+  margin-left: 8px;
 }
 
 .pagination-item-current {
   background-color: #F2F2F2;
+  margin: 0;
 }
+
+/* pagination */
 
 .subscribe.subscribe-catalog {
   background-image: non;
@@ -472,4 +492,8 @@ color: #000000;
   width: 232px;
   height: 52px;
   border-radius: 0, 4px, 4px, 0;
+}
+
+.inner-catalog-home {
+  padding: 0 70px;;
 }
