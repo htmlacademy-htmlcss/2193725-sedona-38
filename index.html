@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container">
-      <header class="page-header">
+      <header data-test="header" class="page-header">
         <nav class="navigation">
           <a class="navigation-logo-link" href="index.html">
             <span class="visually-hidden">Логотип сайта Седона</span>
@@ -49,12 +49,12 @@
           </ul>
         </nav>
       </header>
-      <main class="main-container main-index">
-        <section class="hero">
+      <main  data-test="main" class="main-container main-index">
+        <section data-test="hero" class="hero">
           <h1 class="visually-hidden">Седона - небольшой городок в Аризоне</h1>
           <img class="images-welcome" src="/images/welcome.svg" alt="Добро пожаловать в Седону" width="458" height="352">
         </section>
-        <section class="advantages-section">
+        <section data-test="advantages" class="advantages-section">
           <h2 class="title title-advantages">Седона — небольшой городок в Аризоне,
               заслуживающий большего!</h2>
           <p class="subtitle subtitle-advantages">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
@@ -93,7 +93,7 @@
             </li>
           </ul>
         </section>
-        <section class="advantages-icons">
+        <section data-test="service" class="advantages-icons">
           <h2 class="title title-advantages-icons">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
           <p class="subtitle subtitle-advantages-icons">Опытный персонал и качественное обслуживание!</p>
           <ul class="advantages-icons-list">
@@ -123,7 +123,7 @@
             </li>
           </ul>
         </section>
-        <section class="hotel-search">
+        <section  data-test="search" class="hotel-search">
           <h2 class="title title-hotel-search">Заинтересовались?</h2>
           <p class="subtitle subtitle-hotel-search">
             Укажите предполагаемые даты поездки,
@@ -141,7 +141,7 @@
             </form>
         </section>
       </main>
-      <footer class="page-footer">
+      <footer data-test="footer class="page-footer">
         <section class="page-footer-contacts">
           <h2 class="visually-hidden">Наши соцсети, контакты, сайт</h2>
             <ul class="social-button-list">
@@ -182,7 +182,7 @@
         </section>
       </footer>
 
-      <div class="modal-container modal-container-close">
+      <div data-test="modal" class="modal-container modal-container-close">
         <div class="modal-window">
           <h2 class="title modal-title">Поиск гостиницы в седоне</h2>
           <button class="modal-close-button" type="button">
