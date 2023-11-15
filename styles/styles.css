@@ -642,7 +642,6 @@ body {
 }
 
 
-
 .contacts-phone {
   font-size: 40px;
   line-height: 40px;
@@ -664,10 +663,6 @@ body {
   opacity: 0.3;
 }
 
-/* .footer-copyright-link {
-  display: flex;
-  align-items: center;
-} */
 
 .footer-copyright-icon {
   fill: #000000;
@@ -681,24 +676,6 @@ body {
 .footer-copyright-link:active .footer-copyright-icon {
   fill: rgba(117, 97, 87, 0.3);
 }
-
-/* .footer-copyright-link .footer-copyright-icon {
-  color: #000000;
-}
-
-.footer-copyright-link:hover .footer-copyright-icon {
-  color: #756157;
-}
-
-.footer-copyright-link:focus .footer-copyright-icon {
-  color: #756157;
-}
-
-.footer-copyright-link:active .footer-copyright-icon {
-  color: #756157;
-  opacity: 0.3;
-} */
-
 
 
  .breadcrumbs {
@@ -760,7 +737,6 @@ body {
 
 .filter-filter {
   display: flex;
-  /* width: 370px; */
   justify-content: space-between;
   padding-top: 40px;
 }
@@ -831,7 +807,7 @@ body {
 }
 
 .control-input-check[type="checkbox"]:focus + .control-box-custom {
-  border: 2px solid #83B3D3;
+  outline: 2px solid #83B3D3;
 }
 
 .control-input-check[type="checkbox"]:hover + .control-box-custom {
@@ -884,11 +860,6 @@ body {
   opacity: 0.3;
 }
 
-/* .control-input {
-  position: absolute;
-  appearance: none;
-} */
-
 .control-label-size {
   margin-bottom: 36px;
   height: 48px;
@@ -929,7 +900,6 @@ body {
 .control-input-right {
   border-radius: 0 4px 4px 0;
 }
-
 
 
 /* каталог сортировка */
@@ -1092,7 +1062,6 @@ body {
 }
 
 /* flex catalog-cards*/
-/* grid catalog-cards*/
 
 .hotel-description {
   padding: 0 70px;
@@ -1192,7 +1161,6 @@ body {
 .hotel-card-stars {
   display: block;
   background-image: url(../images/star.svg);
-  /* background-repeat: no-repeat; */
   background-repeat: space;
   width: 18px;
   height: 17px;
