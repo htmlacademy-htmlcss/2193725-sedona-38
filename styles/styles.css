@@ -1431,6 +1431,8 @@ body {
   background-color: #f2f2f2;
 }
 
+/* tooltip */
+
 .tooltip {
   vertical-align: center;
   position: absolute;
