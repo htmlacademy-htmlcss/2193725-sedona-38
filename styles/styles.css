@@ -560,6 +560,7 @@ body {
 .subtitle-subscribe {
   width: 475px;
   margin-bottom: 54px;
+  margin-top: 21px;
 }
 
 .subscribe-field {
@@ -676,7 +677,7 @@ body {
 
 
  .breadcrumbs {
-  display: flex;
+   display: flex;
    list-style-type: none;
    margin: 0;
    padding: 0;
@@ -712,13 +713,14 @@ body {
   background-image: url(../images/catalog/home.svg);
   background-repeat: no-repeat;
   background-position: center;
+
 }
 
 .breadcrumbs-item {
   position: relative;
 }
 
-.breadcrumbs-item:not(:last-child)::after {
+.breadcrumbs-link::after {
   position: absolute;
   content: "";
   width: 7px;
@@ -728,6 +730,10 @@ body {
   background-image: url(../images/catalog/breadcrumbs.svg);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.breadcrumbs-item:last-child .breadcrumbs-link::after {
+  content: none;
 }
 
 /* section Filter */
@@ -938,7 +944,7 @@ body {
 }
 
 .select-control {
-  font-family: PT Sans;
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   width: 292px;
   padding-top: 10px;
@@ -1191,7 +1197,7 @@ body {
 }
 
 .stars-4 {
-  width: 89px;
+  width: 88px;
 }
 
 .stars-5 {
@@ -1204,7 +1210,7 @@ body {
 .pagination {
   padding: 0 70px;
   margin-top: 38px;
-  margin-bottom: 50px;
+  margin-bottom: 58px;
 }
 
 .pagination-list {
