@@ -15,8 +15,8 @@
 }
 
 *,
-::after,
-::before {
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -786,8 +786,8 @@ body {
   padding: 0;
 }
 
-.catalog-filter-item:not(last-child) {
-  padding-bottom: 18px;
+.catalog-filter-item:last-child {
+  padding-bottom: 0;
 }
 
 .control-label {
