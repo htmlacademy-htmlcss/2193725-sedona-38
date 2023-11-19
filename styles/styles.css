@@ -108,8 +108,8 @@ body {
 
 .heart-qty {
   position: absolute;
-  top: -17px;
-  left: 30px;
+  top: -14px;
+  left: 29px;
   background-color: #7DB54F;
   font-size: 10px;
   line-height: 10px;
@@ -233,7 +233,7 @@ body {
 
 .button-user {
   padding: 8px 34px;
-  margin-left: 30px;
+  margin-left: 32px;
 }
 
 .button-reset {
@@ -340,7 +340,7 @@ body {
   background-repeat: no-repeat;
   padding: 0 70px;
   padding-top: 35px;
-  padding-bottom: 57px;
+  padding-bottom: 70px;
   color: #ffffff;
 }
 
@@ -554,7 +554,6 @@ body {
 
 .title-subscribe {
   width: 475px;
-  margin-bottom: 20px;
 }
 
 .subtitle-subscribe {
@@ -786,8 +785,18 @@ body {
   padding: 0;
 }
 
+
+.catalog-filter-item {
+  margin-bottom: 16px;
+}
+
 .catalog-filter-item:last-child {
-  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.control-box-name {
+  font-size: 18px;
+  line-height: 23px;
 }
 
 .control-label {
@@ -946,15 +955,16 @@ body {
 .select-control {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
+  line-height: 21px;
   width: 292px;
-  padding-top: 10px;
+  padding-top: 11px;
   padding-right: 20px;
-  padding-bottom: 10px;
-  padding-left: 14px;
+  padding-bottom: 14px;
+  padding-left: 18px;
   border-radius: 4px;
   border: 2px solid #E5E5E5;
   color: #333333;
-  margin-left: 137px;
+  margin-left: 129px;
   appearance: none;
   position: relative;
   background-image: url(../images/catalog/check-mark-select.svg);
